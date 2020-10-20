@@ -1,0 +1,14 @@
+.app {
+  font-family: 'Ubuntu', sans-serif;
+  color: $font-color;
+  min-height: 100vh;
+  max-width: 100vw;
+  grid-template-rows: 15% 75% 10%;
+  background: $primary-color;
+}
+
+.center-items {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
