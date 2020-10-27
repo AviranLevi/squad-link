@@ -1,11 +1,14 @@
 import React from 'react';
+import Card from '../../components/card';
+//temp
+import apex from '../../assets/images/apex.jpg';
 
-function App() {
+const Home = () => {
   return (
-    <div className='home'>
-      <div>Home</div>
+    <div className='home center-items'>
+      <Card coverImage={apex} />
     </div>
   );
-}
+};
 
-export default App;
+export default Home;
