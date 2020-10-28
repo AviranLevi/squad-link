@@ -1,14 +1,17 @@
 import React from 'react';
 import Footer from './components/footer';
-import Header from './components/header';
+import Login from './pages/login';
+import Navbar from './components/navbar';
 import Home from './pages/home';
 
 function App() {
   return (
     <div className='app center-items'>
-      <Header />
+      <Navbar />
       <Home />
       <Footer />
+
+      <Login />
     </div>
   );
 }

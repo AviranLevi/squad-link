@@ -5,9 +5,12 @@
 @import './assets/_base';
 
 @import './pages/home/home';
+@import './pages/login/login';
 
+@import './components/navbar/navbar';
 @import './components/header/header';
 @import './components/footer/footer';
 @import './components/title/title';
+@import './components/input/input';
 @import './components/btn/btn';
 @import './components/card/card';

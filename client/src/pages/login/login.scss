@@ -1,0 +1,23 @@
+.login {
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  height: 40em;
+  width: 30em;
+  color: $primary-color;
+
+  .login-close-btn {
+    position: absolute;
+    right: 5%;
+    top: 3%;
+  }
+
+  .login-title {
+    font-size: 3em;
+  }
+}

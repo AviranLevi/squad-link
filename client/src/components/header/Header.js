@@ -1,16 +1,11 @@
 import React from 'react';
-import Btn from '../btn';
 import Title from '../title';
 
 const Header = () => {
   return (
     <div className='header center-items'>
-      <Title text='SquadLink' />
-
-      <div className='header-btns center-items'>
-        <Btn text='Sign Up!' />
-        <Btn text='Login' />
-      </div>
+      <Title text='Welcome to SquadLink!' />
+      <Title text='Find a players to play with, just choose your game and lets go!' />
     </div>
   );
 };

@@ -1,0 +1,19 @@
+.navbar {
+  height: 15vh;
+  grid-template-columns: 3fr 1fr;
+  width: 85%;
+
+  .title {
+    font-size: 40px;
+    justify-self: start;
+  }
+
+  .navbar-btns {
+    width: 100%;
+    grid-template-columns: repeat(3, 1fr);
+
+    .btn {
+      justify-self: end;
+    }
+  }
+}
