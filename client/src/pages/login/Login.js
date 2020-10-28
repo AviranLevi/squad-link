@@ -14,7 +14,6 @@ const Login = () => {
     setState({ ...state, [name]: value });
   };
 
-  console.log(state);
   return (
     <div className='login center-items fade-in'>
       <Btn text='X' className='login-close-btn' />
